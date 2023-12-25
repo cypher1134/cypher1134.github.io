@@ -322,7 +322,7 @@ strong {
   font-size: var(--btn-font-size);
   font-weight: var(--font-weight-bold);
   line-height: normal;
-  transition: all 0.3s;
+  transition: all 0.1s;
   padding: 10px 20px;
 }
 
