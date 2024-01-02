@@ -9,8 +9,8 @@ Zein SAKKOUR
   CUSTOM PROPERTIES ( VARIABLES )             
 -----------------------------------------*/
 :root {
-  --h1-font-size: 4.5vw; /* Adjust as needed */
-  --h2-font-size: 2.5vw; 
+  --h1-font-size: 1vw; /* Adjust as needed */
+  --h2-font-size: 0.5vw; 
   --white-color:                  #ffffff;
   --primary-color:                #000000;
   --secondary-color:              #1b1954;
@@ -24,15 +24,15 @@ Zein SAKKOUR
 
   --body-font-family:             'Outfit', sans-serif;
 
-  --h1-font-size:                 74px;
-  --h2-font-size:                 46px;
-  --h3-font-size:                 28px;
-  --h4-font-size:                 24px;
-  --h5-font-size:                 20px;
-  --h6-font-size:                 18px;
-  --p-font-size:                  17px;
-  --btn-font-size:                14px;
-  --copyright-font-size:          16px;
+  --h1-font-size:                 15px;
+  --h2-font-size:                 15px;
+  --h3-font-size:                 13px;
+  --h4-font-size:                 12px;
+  --h5-font-size:                 12px;
+  --h6-font-size:                 12px;
+  --p-font-size:                  12px;
+  --btn-font-size:                12px;
+  --copyright-font-size:          13px;
 
   --border-radius-large:          2px;
   --border-radius-medium:         2px;
@@ -115,6 +115,7 @@ ul li {
 a, 
 button {
   touch-action: manipulation;
+  color: var(--custom-btn-bg-color);
   transition: all 0.3s;
 }
 
@@ -610,7 +611,7 @@ strong {
 
 /* Styles for .resume-title */
 .resume .resume-title {
-  font-size: 20px;
+  font-size: var(--h1-font-size);
   font-weight: 700;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -634,7 +635,7 @@ t2 {
 
 .resume .resume-item h4 {
   line-height: 18px;
-  font-size: 15px;
+  font-size: var(--h4-font-size);
   font-weight: 600;
   
   font-family: "Poppins", sans-serif;
@@ -653,7 +654,7 @@ t2 {
 }
 
 .resume .resume-item h5 {
-  font-size: 16px;
+  font-size: var(--h5-font-size);
   font-weight: 600;
   margin-bottom: 10px;
 }
@@ -1000,7 +1001,7 @@ t2 {
 -----------------------------------------*/
 .social-icon {
   margin: 0;
-  padding: 50px;
+  padding: 30px;
   text-align: left; /* Align the social icons to the left */
 }
 
@@ -1268,9 +1269,9 @@ li {
 
 button {
  
-  padding: 3px 10px;
- 
-  background-color:#07ee95;
+  padding: 2px 8px;
+  font-size: var(--h5-font-size);
+  background-color: var(--custom-btn-bg-color);
   color: #fff;
   border: none;
   cursor: pointer;
