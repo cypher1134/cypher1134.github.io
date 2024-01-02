@@ -13,9 +13,9 @@ Zein SAKKOUR
   --h2-font-size: 2.5vw; 
   --white-color:                  #ffffff;
   --primary-color:                #000000;
-  --secondary-color:              #07ee95;
+  --secondary-color:              #1b1954;
   --section-bg-color:             #f0f8ff;
-  --custom-btn-bg-color:          #07ee95;
+  --custom-btn-bg-color:          #1b1954;
   --custom-btn-bg-hover-color:    #000000;
   --dark-color:                   #000000;
   --p-color:                      #ffffff;
@@ -45,7 +45,7 @@ Zein SAKKOUR
 }
 
 body {
-  background-image: url('../images/black.jpg');
+  background-image: url('../images/back_blue.png');
   background-repeat: repeat;
   background-size: contain;
   -webkit-background-size: contain;
