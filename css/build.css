@@ -67,6 +67,28 @@ h6 {
   color: var(--white-color);
 }
 
+p:hover {
+  color: var(--link-hover-color);
+}
+h1:hover {
+  color: var(--link-hover-color);
+}
+h2:hover {
+  color: var(--link-hover-color);
+}
+h3:hover {
+  color: var(--link-hover-color);
+}
+h4:hover {
+  color: var(--link-hover-color);
+}
+h5:hover {
+  color: var(--link-hover-color);
+}
+h6:hover {
+  color: var(--link-hover-color);
+}
+
 h1,
 h2,
 h3,
@@ -641,6 +663,9 @@ t2 {
   font-family: "Poppins", sans-serif;
   color: #18d26e;
   margin-bottom: 10px;
+}
+.resume .resume-item h4:hover {
+  color: var(--link-hover-color);
 }
 
 .resume .resume-item h44 {
@@ -1279,4 +1304,38 @@ button {
 
 button:hover {
   background-color: #000000;
+}
+
+/*############################### popup*/
+
+
+.modal {
+  align-items: center;
+  
+  display: flex;
+  justify-content: center;
+  position: fixed; 
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(12, 11, 11, 0.852);
+  transition: all 0.4s;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.modal:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Adjust the close button position */
+.box-close {
+  position: fixed;
+  top: 200px;
+  right: 345px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 30px;
 }
