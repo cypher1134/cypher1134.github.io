@@ -22,6 +22,7 @@ Zein SAKKOUR
   --border-color:                 #7fffd4;
   --link-hover-color:             #77d2e2;
 
+
   --body-font-family:             'Outfit', sans-serif;
 
   --h1-font-size:                 15px;
@@ -88,6 +89,7 @@ h5:hover {
 h6:hover {
   color: var(--link-hover-color);
 }
+
 
 h1,
 h2,
@@ -640,6 +642,10 @@ strong {
   color: #fff;
   width: 100%; /* Set the title width to 100% to occupy the full width */
 }
+.resume-title:hover {
+  color: var(--link-hover-color);
+}
+
 
 
 t2 {
