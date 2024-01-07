@@ -6,7 +6,7 @@ $.each(sectionArray, function(index, value) {
         
         // Update offsetSection for the section with index 2
         if (index === 1) {
-            offsetSection -= 40;
+            offsetSection -= 50;
         } else {
             offsetSection -= 65;
         }
@@ -27,7 +27,7 @@ $.each(sectionArray, function(index, value) {
         
         // Update offsetClick for the section with index 2
         if (index === 1) {
-            offsetClick -= 40;
+            offsetClick -= 50;
         } else {
             offsetClick -= 65;
         }
